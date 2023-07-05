@@ -12,7 +12,7 @@ class Karongi extends Bank
    setDeposit(double amount)
    {
     _balance =_balance!+amount;
-    print("you deposited $amount from $bname branch. new balance is $_balance");
+    print("you deposited $amount from $b_name branch. new balance is $_balance");
    }
    setWithdraw(double amount)
    {
@@ -24,7 +24,7 @@ class Karongi extends Bank
 
     
     _balance =_balance!-amount;
-    print("you have withdrawn $amount from $bname branch. new balance is $_balance");
+    print("you have withdrawn $amount from $b_name branch. new balance is $_balance");
     }
    }
 }
