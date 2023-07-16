@@ -18,7 +18,7 @@ class Warrior extends Character
     print("$name activated $ability mode");
   }
 }
-class Mage extends Character
+class Mage extends Character  
 {
   Mage(super.name);
   @override

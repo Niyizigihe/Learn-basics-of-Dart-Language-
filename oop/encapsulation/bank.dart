@@ -1,6 +1,7 @@
 class BankAccount
 {
   double? _balance;
+  
   double get bal=>this._balance!;
    setDeposit(double amount)
    {
