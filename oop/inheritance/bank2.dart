@@ -1,9 +1,9 @@
-class Branches
+class Bank
 {
     String? b_name;
     set bname(String name)=> b_name=name;
 }
-class BankAccount extends Branches
+class Karongi extends Bank
 {
     late int _acc_no;
     double? _balance;
