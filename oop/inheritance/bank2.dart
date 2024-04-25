@@ -32,7 +32,7 @@ class Karongi extends Bank
 
 main()
 {
-  var bank=BankAccount();
+  var bank=Karongi();
   bank.bname="BK Karongi";
   bank._balance=30;
 
